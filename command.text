@@ -1,0 +1,13 @@
+docker -v // Docker version 19.03.5, build 633a0ea
+docker ps // List all runnig containers
+docker ps --all // List all containers
+docker run hello-world // Run a container
+docker rm container_id // Remove a container
+docker run -p 80:80 nginx // Run a container with port mapping
+docker stop container_id // Stop a container
+docker rm container_id // Remove a container
+
+docker
+cd // change directory
+cd .. Go back to the previous directory
+cd /etc/nginx // Go to the nginx directory
